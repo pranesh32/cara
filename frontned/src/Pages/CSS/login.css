@@ -1,0 +1,85 @@
+.login
+{
+   width: 100%;
+   height:100%;
+   background-color: rgb(244, 239, 227);
+   padding-top:100px;
+   display: flex;
+   flex-direction: column;
+   
+}
+.container
+{
+    width: 500px;
+    height: 500px;
+    margin-left: 26rem;
+    background:white;
+    align-items: center; 
+    justify-content: center; 
+    padding: 50px 60px  ; 
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom:5rem ;
+
+}
+.heading
+{
+    margin-bottom: 4px;
+    margin-top: 20px;
+    margin-right:5rem;
+}
+.fields
+{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 55px;
+    margin-right: 11rem;
+    margin-left: 2rem;
+    justify-content: center;
+    width:25rem;
+    text-align: center;
+}
+.fields input
+{
+    height: 40px;
+    width:25rem;
+    padding-left: 15px;
+    border: 2px solid rgb(133, 133, 133);
+    outline: none;
+    color: #336969;
+    font-size: 19px;
+    margin-left: 4rem;
+    margin-right: 5rem;
+    align-items: center;
+    
+}
+.container button
+{
+    width:25rem;
+    height: 40px;
+    color: rgb(210, 192, 192);
+    font-weight: 500;
+    font-size: 24px;
+    cursor: pointer;
+    border: 1px solid;
+    margin-top: 30px;
+    background:rgb(169, 112, 121);
+    padding-left: 20px;
+    margin-right: 5rem;
+    align-items: center;
+    margin-left: 4rem;
+}
+.b{
+    margin-top: 2rem;
+    gap: 30px;
+}
+.agree
+{
+    display: flex;
+    align-items: center;
+    margin-top:25px;
+    gap: 20px;
+    font-size:16px;
+}

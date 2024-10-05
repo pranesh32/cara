@@ -1,0 +1,102 @@
+.content
+{
+    font-size:4em;
+    margin-left: 10rem;
+    font-weight: 700;
+    font-style: normal;
+    margin-top:2rem;
+}
+
+h4
+{
+    margin-left: 10rem;
+    margin-top: 5rem;
+}
+.button
+{
+    border-radius: 7rem;
+    color: aquamarine;
+    background-color: red;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    height: 70px;
+    width: 310px;
+    margin-left: 4rem;
+    font-weight: 600;
+    font-size: 24px;
+}
+.hero 
+{
+    display: flex;
+    height: 100vh;
+    background-color: lineargra;
+}
+.hero-left
+{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 180px;
+    line-height: 1.1;
+
+}
+.hero-left h2
+{
+    color: #090909;
+    font-size: 26px;
+    font-weight: 600;
+}
+.hero-left p
+{
+    color: #171717;
+    font-size: 80px;
+    font-weight: 700;
+}
+.a
+{
+    height: 32rem;
+    margin-top: 3rem;
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(max-width:1280px) {
+    .hero-left
+    {
+           
+    }
+    .a
+    {
+        
+    }
+    .text
+    {
+       
+
+    }
+}
+
+@media (max-width:1240px)
+{
+    .hero
+    {
+        width: 180px;
+        font-size: 14spx;
+    }
+    .image
+    {
+        width: 180px;
+        height: 40vh;
+    }
+    .item-price
+    {
+        font-size: 11px;
+
+    }
+}
